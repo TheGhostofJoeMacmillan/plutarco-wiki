@@ -9,9 +9,12 @@
 ### Plutarco — pltco.ink@gmail.com
 - **Purpose:** Agent's primary email, GitHub commits, CJ Dropshipping, art correspondence
 - **Access:** Google Workspace MCP OAuth on VPS
-- **OAuth token:** ~/.config/google-workspace-mcp/credentials.json
+- **OAuth token:** ~/.hermes/google_token.json (NOT ~/.config/google-workspace-mcp/ — that's stale)
 - **Client ID:** 338689075775-o75k922vn5fdl18qergr96rp8g63e4d7.apps.googleusercontent.com
-- **Usage from VPS:** Direct Python API calls (google.oauth2.credentials.Credentials + googleapiclient). mcporter MCP server times out headless.
+- **Send email:** `python3 ~/.hermes/skills/productivity/google-workspace/scripts/google_api.py gmail send --to "x" --from '"Plutarco" <pltco.ink@gmail.com>' --subject "s" --body "b"` (add --html for HTML)
+- **Search:** `... gmail search "query" --max N`
+- **Read:** `... gmail get MESSAGE_ID`
+- **Full procedure:** See [[Infrastructure/email-sending]]
 - **Usage from Vercel:** NOT possible with OAuth token. Need App Password for serverless functions.
 - **Status:** ✅ Working for read/send from VPS
 

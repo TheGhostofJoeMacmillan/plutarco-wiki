@@ -42,7 +42,7 @@
 ## Services
 - **Hermes Agent** — systemd service (`--replace`)
 - **Tailscale** — VPN mesh
-- **Cron** — scheduled jobs (currently all paused)
+- **Cron:** 2 active jobs — wiki auto-update (daily 6am) + auth health check (daily 9am)
 
 ---
 

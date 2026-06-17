@@ -4,15 +4,21 @@
 
 ---
 
+## June 17, 2026 — Maxine Agency Website + Trade Show DB + Memory System
+- 🌐 Maxine Agency website updates: removed service numbers, removed Monthly Retainer, renamed "Connection + Sampling" → "Sourcing & Sampling" (merged sourcing into it), expanded all service descriptions
+- 🌐 Fixed "past clients" → "brands they've produced for", "in Portugal" → "at the factories"
+- 🌐 Brands list replaced: Acne Studios, Balenciaga, Casablanca, Veja, Hugo Boss, Dôen
+- 📋 Comporta store list created (16 stores/hotels with addresses, phones, emails, Maps links)
+- 📧 Emailed Comporta store list to hello@maxineagency.com from pltco.ink@gmail.com
+- 📧 Email sending set up: Gmail OAuth via google_api.py, documented in wiki
+- 🏪 Trade show exhibitor database in progress: 644 brands extracted (87 MAN/WOMAN, 20 Splash, 537 Playtime), batch email scraper running in background
+- 🧠 Memory system overhaul: trimmed memory from 97% to 66%, consolidated to pure pointers, wiki audit running via background subagent
+- 🧠 Fixed wiki: Email & Communications (wrong token path), VPS Config (cron status), Daily Log (removed empty entries)
+- 🧠 Created Infrastructure/email-sending.md wiki page
 
-
-
-## June 17, 2026
-- (auto-generated entry — no activity logged yet)
 ## June 16, 2026
-- (auto-generated entry — no activity logged yet)
-## June 15, 2026
-- (auto-generated entry — no activity logged yet)
+- (no activity logged)
+
 ## June 14, 2026 — Pathway US Launch + Wiki Refresh
 - 🚀 Pathway US site fully built and deployed: pathway-us.vercel.app
 - ✅ Form API working with Telegram notifications
@@ -26,123 +32,6 @@
 - 🧠 Wiki refreshed — new pages for Pathway US, Maxine Agency, Email & Communications
 - 🧠 Hermes memory trimmed to pointers, wiki used for depth
 
-## June 13, 2026
-- (auto-generated entry — no activity logged)
-
-## June 12, 2026
-- (auto-generated entry — no activity logged)
-
-## June 11, 2026
-- (auto-generated entry — no activity logged)
-
-## June 10, 2026
-- (auto-generated entry — no activity logged)
-
-## June 9, 2026
-- (auto-generated entry — no activity logged)
-
-## June 8, 2026
-- (auto-generated entry — no activity logged)
-
-## June 7, 2026
-- (auto-generated entry — no activity logged)
-
-## June 6, 2026
-- (auto-generated entry — no activity logged)
-
-## June 5, 2026
-- (auto-generated entry — no activity logged)
-
-## June 4, 2026
-- (auto-generated entry — no activity logged)
-
-## June 3, 2026
-- (auto-generated entry — no activity logged)
-
-## June 2, 2026
-- (auto-generated entry — no activity logged)
-
-## June 1, 2026
-- (auto-generated entry — no activity logged)
-
-## May 31, 2026
-- (auto-generated entry — no activity logged)
-
-## May 30, 2026
-- (auto-generated entry — no activity logged)
-
-## May 29, 2026
-- (auto-generated entry — no activity logged)
-
-## May 28, 2026
-- (auto-generated entry — no activity logged)
-
-## May 27, 2026
-- (auto-generated entry — no activity logged)
-
-## May 26, 2026
-- (auto-generated entry — no activity logged)
-
-## May 25, 2026
-- (auto-generated entry — no activity logged)
-
-## May 24, 2026
-- (auto-generated entry — no activity logged)
-
-## May 23, 2026
-- (auto-generated entry — no activity logged)
-
-## May 22, 2026
-- (auto-generated entry — no activity logged)
-
-## May 21, 2026
-- (auto-generated entry — no activity logged)
-
-## May 20, 2026
-- (auto-generated entry — no activity logged)
-
-## May 19, 2026
-- (auto-generated entry — no activity logged)
-
-## May 18, 2026
-- (auto-generated entry — no activity logged)
-
-## May 17, 2026
-- (auto-generated entry — no activity logged)
-
-## May 16, 2026
-- (auto-generated entry — no activity logged)
-
-## May 15, 2026
-- (auto-generated entry — no activity logged)
-
-## May 14, 2026
-- (auto-generated entry — no activity logged)
-
-## May 13, 2026
-- (auto-generated entry — no activity logged)
-
-## May 12, 2026
-- (auto-generated entry — no activity logged)
-
-## May 11, 2026
-- (auto-generated entry — no activity logged)
-
-## May 10, 2026
-- (auto-generated entry — no activity logged)
-
-## May 9, 2026
-- (auto-generated entry — no activity logged)
-
-## May 8, 2026
-- (auto-generated entry — no activity logged)
-
-## May 7, 2026
-- (auto-generated entry — no activity logged)
-
-## May 6, 2026
-- (auto-generated entry — no activity logged)
-
 ## May 5, 2026 — Copy Trading Deep Dive + Wiki Refresh
 - 🔍 Deep dive into Solana copy-trading infrastructure (wallet watcher, copy executor, sizing logic)
 - 🐛 Identified bugs: state-cursor error (missed sells), timezone bug (wrong sizing), 0.02 SOL sizing bug, partial sell string bug in PumpPortal
@@ -150,7 +39,6 @@
 - 🔄 Decision: copy trading is being revisited, may be part of the rotation going forward
 - 🧠 Delegation model updated to Kimi K2.6 via Nous Portal (from MiMo)
 - 🔧 Hermes memory plugins evaluated — 8 options available, decided to stick with wiki + cron auto-updates for now
-- 📝 Wiki update in progress — catching up 2.5 weeks of stale pages
 
 ## May 3, 2026 — LocalIntelligence Domain + Gmail Setup
 - 💰 Afternic listing confirmed: localintelligence.ai at $95,000 Buy Now
@@ -182,8 +70,6 @@
 - ✅ All 77 art generators confirmed present
 - ✅ 39 voice files confirmed present (11 cloned + roster + narrator + helena)
 - ✅ Surface Go unreachable — all critical data verified on VPS, no dependency on old machine
-- ⏸️ Cron jobs still paused (xNarrator daily scrape, weekly scout, Roplotica verification)
-- ⚠️ Roplotica has `safe_url_for_log` import error — needs fix
 
 ## April 7, 2026 — Hermes Migration Day
 - OpenClaw → Hermes Agent migration completed
