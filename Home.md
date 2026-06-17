@@ -33,12 +33,12 @@
 ### Meta
 - **[[Timeline]]** — Key dates and milestones (updated through June 2026)
 - **[[People and Contacts]]** — Who's who
-- **[[Daily Log]]** — What happened (updated June 14)
+- **[[Daily Log]]** — What happened (updated June 17)
 - **[[Deprioritized Projects]]** — Shelved but not forgotten
 
 ---
 
-## Current Status (June 14, 2026)
+## Current Status (June 17, 2026)
 
 **Location:** Porto, Portugal (since April 2026)
 

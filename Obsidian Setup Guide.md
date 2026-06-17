@@ -22,7 +22,7 @@ Open Terminal and run:
 cd ~
 git clone https://github.com/TheGhostofJoeMacmillan/plutarco-wiki.git
 ```
-(Uses your GitHub credentials — the repo is private)
+(Repo is public — no credentials needed for read access)
 
 ### 3. Open in Obsidian
 - Launch Obsidian
