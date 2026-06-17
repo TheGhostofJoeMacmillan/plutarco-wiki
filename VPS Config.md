@@ -13,7 +13,7 @@
 - **User:** go
 - **RAM:** 3.7Gi (typically 1.1Gi used, ~2.6Gi available)
 - **CPU:** 2 vCPU (shared AMD EPYC-Genoa)
-- **Disk:** 75G (17G used, 56G free, 24% full)
+- **Disk:** 75G (23G used, 50G free, 32% full)
 - **GPU:** None
 - **Swap:** None
 
@@ -31,17 +31,15 @@
 
 ## Tailscale Network
 
-| Device | Tailscale IP | Notes |
-|--------|-------------|-------|
-| VPS | 100.96.245.70 | Primary server |
-| ThinkPad T480 | 100.66.152.87 | Laptop, SSH accessible from VPS |
-| S24 Ultra | (dynamic) | Phone, Termius |
+See [[Tailscale Network]] for full device list.
 
 ---
 
 ## Services
-- **Hermes Agent** — systemd service (`--replace`)
-- **Tailscale** — VPN mesh
+- **Hermes Gateway** — systemd service (`hermes-gateway.service`, `--replace`)
+- **Hermes Dashboard** — background process (`hermes dashboard --no-open`)
+- **Tailscale** — VPN mesh (systemd)
+- **Nginx** — reverse proxy
 - **Cron:** 2 active jobs — wiki auto-update (daily 6am) + auth health check (daily 9am)
 
 ---
@@ -62,9 +60,9 @@
 ---
 
 ## Git Backup
-- **Repo:** TheGhostofJoeMacmillan/hermes-backup
+- **Wiki repo:** TheGhostofJoeMacmillan/plutarco-wiki (public, auto-push hourly)
+- **Hermes backup:** TheGhostofJoeMacmillan/hermes-backup
 - **Auth:** Fine-grained PAT (restored Apr 10)
-- **Content:** Full ~/.hermes backup
 
 ---
 
@@ -76,4 +74,4 @@
 ---
 
 ## Pending Maintenance
-- ⚠️ Server reboot needed for kernel update (6.8.0-90 → 6.8.0-110)
+- ⚠️ Server reboot needed — kernel updates pending (6.8.0-110, 111, 117, 124)
