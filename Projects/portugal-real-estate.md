@@ -112,14 +112,26 @@
 - **Idealista API:** Apply at developers.idealista.com/access-request — pending Phillip's application
 - **Domain:** Not yet purchased. Need to pick one.
 
-## Visa Update (2026-06-22)
-- Bea has D2 entrepreneur visa → Phillip is on family reunification (D6)
-- D6 gives FULL work rights in Portugal — including self-employment
+## Visa Update (2026-06-22, revised 2026-06-23)
+- Bea has D2 entrepreneur visa → Phillip is likely on D6 family reunification (spouse of D2)
+- D6 grants FULL work rights in Portugal — including self-employment
 - D8 digital nomad restrictions do NOT apply to Phillip
+- **Phillip should verify his exact visa type on his residency card** — he's unsure if it's D6 or something else
+- If all three (Bea, Phillip, child) applied together at the consulate with Bea as primary D2 applicant, Phillip would be D6 dependent
+- Key: whatever the visa type, as spouse of D2 holder, Phillip has full work rights
 - Existing Lda can potentially be used — just add CAE 68311 (real estate mediation)
 - AMI license requires Título de Residência (residency card), not just visa
 - AMI exam is in Portuguese only — need B1/B2 level
 - Total AMI cost: ~€700-1,400, timeline 3-6 months from residency card
+
+## Site Update (2026-06-23)
+- Added personal story section ("We Moved From California to Porto")
+- Added services/differentiation section (video walkthroughs, neighborhood reality checks, trusted agents, move-from-abroad guide)
+- Updated hero copy to be personal: "We Moved Here. Now We Help You Do the Same."
+- Updated How It Works to mention video walkthroughs and neighborhood profiles
+- Updated contact form placeholder and benefits list
+- Removed old generic About section, replaced with personal story
+- Differentiation: honest on-the-ground guidance vs. cold listing portals
 
 ## Next Steps
 - [ ] Phillip: Request Idealista API access at developers.idealista.com/access-request
