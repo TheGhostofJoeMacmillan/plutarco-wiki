@@ -108,7 +108,7 @@
 - **Location:** ~/projects/porto-realestate/ on VPS
 - **Stack:** Pure HTML/CSS/JS + Vercel serverless API
 - **Lead capture:** POST /api/lead → Telegram notification to Phillip ✅
-- **Vercel Blob:** Store needs to be created in dashboard + BLOB_STORE_ID env var added, then redeploy to persist leads
+- **Vercel Blob:** ✅ DONE (2026-06-29). Public store `porto-realestate-leads` (store_4sNWVNZ1jCJLjtZw) created and linked. Lead JSON files stored with randomized filenames. Telegram + Blob both firing on form submissions.
 - **Idealista API:** Apply at developers.idealista.com/access-request — pending Phillip's application
 - **Domain:** Not yet purchased. Need to pick one.
 

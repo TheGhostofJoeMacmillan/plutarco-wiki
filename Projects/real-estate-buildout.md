@@ -61,12 +61,12 @@ Building a real estate business in Porto, Portugal targeting English-speaking in
 ## Action Items
 
 ### This Week
-- [ ] Review website on laptop, identify tweaks
+- [x] Review website on laptop ✅ (2026-06-29)
 - [ ] Create Instagram account for the real estate brand
 - [ ] Create YouTube channel
 - [ ] Phillip: Ask accountant about adding CAE 68311 to Lda
 - [ ] Phillip: Request Idealista API access (developers.idealista.com/access-request)
-- [ ] Pick a domain name
+- [ ] Pick a domain name (options presented — see domain section below)
 
 ### This Month
 - [ ] Get criminal record certificates (purpose: "Mediação Imobiliária")
